@@ -14,7 +14,7 @@ async_client = AsyncTogether(
     api_key=os.getenv('TOGETHER_API_KEY')
 )
 
-user_prompt = 'What are the top 3 things to do in India?'
+user_prompt = input()
 
 reference_models = [
     'meta-llama/Llama-3.3-70B-Instruct-Turbo',
