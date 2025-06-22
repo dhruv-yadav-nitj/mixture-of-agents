@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 client = Together(
     api_key=os.getenv('TOGETHER_API_KEY')
 )
